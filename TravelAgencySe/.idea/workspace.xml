@@ -4,12 +4,22 @@
     <list default="true" id="f64075a6-b283-4093-bc3c-ae6c3b0c44a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../TravelAgencyEe/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelAgencyEe/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TravelAgencyEe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelAgencyEe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/htl/at/travelagency/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/htl/at/travelagency/model/Flight.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -35,6 +45,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571947608934</updated>
-      <workItem from="1571947612277" duration="55000" />
+      <workItem from="1571947612277" duration="360000" />
     </task>
     <servers />
   </component>
