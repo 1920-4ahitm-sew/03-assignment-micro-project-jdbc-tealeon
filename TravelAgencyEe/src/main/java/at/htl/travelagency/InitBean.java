@@ -20,5 +20,7 @@ public class InitBean {
         System.out.println("IT WORKS!");
         Flight outboundFlight = new Flight("LNZ", "LAX", "25.10.2019");
         Flight returnFlight = new Flight("LAX", "LNZ", "29.10.2019");
+        em.persist(outboundFlight);
+        em.persist(returnFlight);
     }
 }
