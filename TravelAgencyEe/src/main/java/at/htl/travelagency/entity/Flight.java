@@ -14,17 +14,15 @@ public class Flight {
     private Long id;
     private String departure;
     private String destination;
-    private Date departureDate;
-    private Date arrivalDate;
+    private String date;
 
     public Flight(){
     }
 
-    public Flight(String departure, String destination, Date departureDate, Date arrivalDate) {
+    public Flight(String departure, String destination, String date) {
         this.departure = departure;
         this.destination = destination;
-        this.departureDate = departureDate;
-        this.arrivalDate = arrivalDate;
+        this.date = date;
     }
 
     public Long getId() {
@@ -51,24 +49,16 @@ public class Flight {
         this.destination = destination;
     }
 
-    public Date getDepartureDate() {
-        return departureDate;
+    public String getDate() {
+        return date;
     }
 
-    public void setDepartureDate(Date departureDate) {
-        this.departureDate = departureDate;
-    }
-
-    public Date getArrivalDate() {
-        return arrivalDate;
-    }
-
-    public void setArrivalDate(Date arrivalDate) {
-        this.arrivalDate = arrivalDate;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override
     public String toString() {
-        return String.format("%d: %s %s", departureDate, departure, arrivalDate ,destination);
+        return String.format("%d: %s %s", departure,destination,date);
     }
 }
