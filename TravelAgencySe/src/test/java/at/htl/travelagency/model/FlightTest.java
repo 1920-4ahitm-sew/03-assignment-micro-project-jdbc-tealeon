@@ -39,11 +39,11 @@ class FlightTest{
         em.getTransaction().commit();
     }
 
-    @Test
-    void test02readOneFlight() {
-        Flight outboundFlight = em.find(Flight.class,1L);
-        assertThat(outboundFlight.getDeparture(),is("LNZ"));
-        assertThat(outboundFlight.getDestination(),is("LAX"));
-    }
+//    @Test
+//    void test02readOneFlight() {
+//        Flight outboundFlight = em.find(Flight.class,1L);
+//        assertThat(outboundFlight.getDeparture(),is("LNZ"));
+//        assertThat(outboundFlight.getDestination(),is("LAX"));
+//    }
 
 }

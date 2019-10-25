@@ -9,7 +9,6 @@ import java.util.Date;
 
 @Entity
 public class Flight implements Serializable {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -60,6 +59,6 @@ public class Flight implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("%d: %s %s", departure,destination,date);
+        return String.format("%s: %s %s", departure,destination,date);
     }
 }
