@@ -27,7 +27,7 @@ class FlightTest{
     }
 
     @Test
-    void testDatabaseConnection() {
+    void test01DatabaseConnection() {
         System.out.println("IT WORKS!");
         Flight outboundFlight = new Flight("LNZ", "LAX", "25.10.2019");
         Flight returnFlight = new Flight("LAX", "LNZ", "29.10.2019");
@@ -40,7 +40,7 @@ class FlightTest{
     }
 
     @Test
-    void test02readOneVehicle() {
+    void test02readOneFlight() {
         Flight outboundFlight = em.find(Flight.class,1L);
         assertThat(outboundFlight.getDeparture(),is("LNZ"));
         assertThat(outboundFlight.getDestination(),is("LAX"));
