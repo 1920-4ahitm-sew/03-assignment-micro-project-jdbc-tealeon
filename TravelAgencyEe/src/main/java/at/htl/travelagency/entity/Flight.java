@@ -59,6 +59,6 @@ public class Flight {
 
     @Override
     public String toString() {
-        return String.format("%d: %s %s", departure,destination,date);
+        return String.format("%s: %s %s", departure,destination,date);
     }
 }
