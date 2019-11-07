@@ -8,9 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3be8ef4f-6f0d-491f-ae3a-6a23b2fccee5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/travelagency/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/travelagency/entity/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelagencyee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/travelagencyee.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TravelAgencySe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TravelAgencySe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -204,7 +201,7 @@
       <workItem from="1571981931225" duration="2025000" />
       <workItem from="1571986783969" duration="1216000" />
       <workItem from="1571990858121" duration="1225000" />
-      <workItem from="1573166227583" duration="2358000" />
+      <workItem from="1573166227583" duration="2609000" />
     </task>
     <servers />
   </component>
