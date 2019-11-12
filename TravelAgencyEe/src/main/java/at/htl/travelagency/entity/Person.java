@@ -11,14 +11,12 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private int age;
     private String city;
 
     public Person () {}
 
-    public Person(String name, int age, String city) {
+    public Person(String name, String city) {
         this.name = name;
-        this.age = age;
         this.city = city;
     }
 
@@ -38,14 +36,6 @@ public class Person {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getCity() {
         return city;
     }
@@ -56,6 +46,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Age: " + age + ", City: " + city;
+        return "Name: " + name + ", City: " + city;
     }
 }

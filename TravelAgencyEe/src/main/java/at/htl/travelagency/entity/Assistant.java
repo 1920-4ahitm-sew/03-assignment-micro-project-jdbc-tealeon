@@ -13,8 +13,8 @@ public class Assistant extends Person{
 
     public Assistant(){}
 
-    public Assistant(String name, int age, String city) {
-        super(name, age, city);
+    public Assistant(String name, String city) {
+        super(name, city);
     }
 
     @Override
