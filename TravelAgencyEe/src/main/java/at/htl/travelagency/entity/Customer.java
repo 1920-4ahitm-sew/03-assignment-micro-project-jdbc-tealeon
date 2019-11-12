@@ -10,11 +10,21 @@ public class Customer extends Person{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private int loyalPoints;
 
     public Customer(){}
 
-    public Customer(String name, int age, String city) {
+    public Customer(String name, int age, String city, int loyalPoints) {
         super(name, age, city);
+        this.loyalPoints = loyalPoints;
+    }
+
+    public int getLoyalPoints() {
+        return loyalPoints;
+    }
+
+    public void setLoyalPoints(int loyalPoints) {
+        this.loyalPoints = loyalPoints;
     }
 
     @Override
