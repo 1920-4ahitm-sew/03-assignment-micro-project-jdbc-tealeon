@@ -13,8 +13,8 @@ public class Customer extends Person{
 
     public Customer(){}
 
-    public Customer(String name, int age, String street) {
-        super(name, age, street);
+    public Customer(String name, int age, String city) {
+        super(name, age, city);
     }
 
     @Override
